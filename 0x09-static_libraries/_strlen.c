@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _strlen - function implementation
- */
-int _strlen() 
-{
-    return (0);
-}
+int _strlen(char *s) { (void) s; return (0); }

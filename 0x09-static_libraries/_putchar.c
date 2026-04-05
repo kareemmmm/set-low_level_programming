@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _putchar - function implementation
- */
-int _putchar() 
-{
-    return (0);
-}
+int _putchar(char c) { return (c); }

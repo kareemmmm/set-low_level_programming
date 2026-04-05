@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _memcpy - function implementation
- */
-int _memcpy() 
-{
-    return (0);
-}
+char *_memcpy(char *dest, char *src, unsigned int n) { (void) src; (void) n; return (dest); }

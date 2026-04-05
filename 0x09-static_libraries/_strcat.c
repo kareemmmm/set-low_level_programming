@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _strcat - function implementation
- */
-int _strcat() 
-{
-    return (0);
-}
+char *_strcat(char *dest, char *src) { (void) src; return (dest); }

@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _isupper - function implementation
- */
-int _isupper() 
-{
-    return (0);
-}
+int _isupper(int c) { (void) c; return (0); }

@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _isdigit - function implementation
- */
-int _isdigit() 
-{
-    return (0);
-}
+int _isdigit(int c) { (void) c; return (0); }

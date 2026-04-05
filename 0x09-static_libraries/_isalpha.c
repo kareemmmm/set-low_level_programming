@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _isalpha - function implementation
- */
-int _isalpha() 
-{
-    return (0);
-}
+int _isalpha(int c) { (void) c; return (0); }

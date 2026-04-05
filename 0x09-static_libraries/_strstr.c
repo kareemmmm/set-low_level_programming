@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _strstr - function implementation
- */
-int _strstr() 
-{
-    return (0);
-}
+char *_strstr(char *haystack, char *needle) { (void) needle; return (haystack); }

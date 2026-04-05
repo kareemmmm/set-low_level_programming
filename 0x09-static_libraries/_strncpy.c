@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _strncpy - function implementation
- */
-int _strncpy() 
-{
-    return (0);
-}
+char *_strncpy(char *dest, char *src, int n) { (void) src; (void) n; return (dest); }

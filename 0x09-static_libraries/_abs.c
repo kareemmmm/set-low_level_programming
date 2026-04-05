@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _abs - function implementation
- */
-int _abs() 
-{
-    return (0);
-}
+int _abs(int n) { return (n >= 0 ? n : -n); }

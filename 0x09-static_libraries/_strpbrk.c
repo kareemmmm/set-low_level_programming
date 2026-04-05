@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _strpbrk - function implementation
- */
-int _strpbrk() 
-{
-    return (0);
-}
+char *_strpbrk(char *s, char *accept) { (void) accept; return (s); }

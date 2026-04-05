@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _atoi - function implementation
- */
-int _atoi() 
-{
-    return (0);
-}
+int _atoi(char *s) { (void) s; return (0); }

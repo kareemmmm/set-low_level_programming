@@ -1,9 +1,2 @@
 #include "main.h"
-
-/**
- * _strchr - function implementation
- */
-int _strchr() 
-{
-    return (0);
-}
+char *_strchr(char *s, char c) { (void) c; return (s); }
